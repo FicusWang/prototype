@@ -1,2 +1,3 @@
 # prototype
-a prototype of react front-end &amp; nodejs back-end
+
+a prototype of front-end build by React and back-end build by nodejs
