@@ -1,8 +1,14 @@
 import React from 'react';
-import './App.css';
+import 'antd/dist/antd.css';
+import { BrowserRouter } from 'react-router-dom';
+import MainPageContainer from './layout/MainPageContainer';
 
 function App() {
-  return <div>Hello World!!!</div>;
+  return (
+    <BrowserRouter>
+      <MainPageContainer />
+    </BrowserRouter>
+  );
 }
 
 export default App;
