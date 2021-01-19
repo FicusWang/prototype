@@ -2,9 +2,9 @@
   "name": "back-end",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "app.ts",
   "scripts": {
-    "start": "nodemon index.ts",
+    "start": "nodemon app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project ./"
   },
@@ -12,6 +12,8 @@
   "author": "Ficus",
   "license": "MIT",
   "dependencies": {
+    "@types/cors": "^2.8.9",
+    "cors": "^2.8.5",
     "express": "4.17.1"
   },
   "devDependencies": {

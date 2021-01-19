@@ -1,3 +1,1 @@
-# prototype
-
-a prototype of front-end build by React and back-end build by nodejs
+You may need to disable brower's CORS for running node index.js

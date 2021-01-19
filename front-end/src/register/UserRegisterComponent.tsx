@@ -1,9 +1,13 @@
 import { Button, Form, Input } from 'antd';
 import React from 'react';
+import axios from 'axios';
 
 export default function UserRegisterComponent() {
   const onFinish = (values: any) => {
-    console.log('Success:', values);
+    axios
+      .post('http://localhost:8000/users', values)
+      .then((res) => console.log(res))
+      .catch((error) => console.error(error));
   };
 
   const onFinishFailed = (errorInfo: any) => {
